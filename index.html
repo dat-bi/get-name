@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sangtacviet Names Downloader</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 Names Downloader</h1>
+            <p>
+                Tải xuống danh sách names từ Sangtacviet và Wikidich một cách dễ dàng<br />
+                <small>💡 Tip: Copy URL vào clipboard rồi nhấn "Dán URL từ clipboard" để
+                    tự động điền</small>
+            </p>
+        </div>
+
+        <form id="searchForm">
+            <div class="input-group">
+                <label for="urlInput">Nhập URL truyện (Sangtacviet hoặc Wikidich):</label>
+                <input type="url" id="urlInput" placeholder="https://sangtacviet.com/truyen/... hoặc https://truyenwikidich.net/truyen/..." required />
+                <div class="example">
+                    <strong>Ví dụ Sangtacviet:</strong>
+                    https://sangtacviet.com/truyen/qidian/1/1044764289/<br>
+                    <strong>Ví dụ Wikidich:</strong>
+                    https://truyenwikidich.net/truyen/ta-co-mot-loat-thanh-nhiem-vu-XvVZ1VS4CCU8FJjw
+                </div>
+            </div>
+            <button type="button" class="btn" id="pasteBtn">📋 Dán URL từ clipboard</button>
+            <button type="submit" class="btn" id="searchBtn">🔎 Tìm Names</button>
+        </form>
+
+        <div id="status" class="status"></div>
+
+        <div id="namesList" class="names-list">
+            <h2>📋 Danh sách Names có sẵn</h2>
+            <div id="namesContainer"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
