@@ -1,0 +1,31 @@
+{
+    "metadata": {
+        "author": "D",
+        "description": "D"
+    },
+    "data": [
+        {
+            "name": "5in1",
+            "author": "D",
+            "path": "https://raw.githubusercontent.com/dat-bi/get-name/main/repo/5in1/plugin.zip",
+            "version": 1,
+            "source": "https://sangtacviet.app",
+            "icon": "https://raw.githubusercontent.com/dat-bi/get-name/main/repo/5in1/icon.png",
+            "description": "",
+            "type": "chinese_novel",
+            "locale": "zh_CN"
+        },
+        {
+            "name": "MTC",
+            "author": "D",
+            "path": "https://raw.githubusercontent.com/dat-bi/get-name/main/repo/MTC/plugin.zip",
+            "version": 1,
+            "source": "https://metruyencv.com",
+            "icon": "https://raw.githubusercontent.com/dat-bi/get-name/main/repo/MTC/icon.png",
+            "locale": "vi_VN",
+            "description": "",
+            "language": "javascript",
+            "type": "novel"
+        }
+    ]
+}
